@@ -1,0 +1,2086 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8" />
+<title>Ointoberfest BBQ Cookoff | KCBS</title>
+<meta description="KCBS is the world's largest organization of barbeque and grilling enthusiasts." />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" href="/_css/normalize.css" />
+<link rel="stylesheet" href="/_css/global.css" />
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="/js/functions.js"></script>
+<script type="text/javascript" src="/js/jquery.cycle.js"></script>
+<script type="text/javascript" src="/js/jquery.easing.min.js"></script>
+<script type="text/javascript" src="/js/modSecurityFix.js"></script>
+
+<link rel="stylesheet" href="/plugins/fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+<script type="text/javascript" src="/plugins/jquery-validation-1.14.0/dist/jquery.validate.min.js"></script>
+<script type="text/javascript" src="/plugins/jquery-validation-1.14.0/dist/additional-methods.min.js"></script>
+<script type="text/javascript" src="/plugins/fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
+<script type="text/javascript">
+$(function() {
+	$('.fancybox').fancybox();
+	$('.fancyboxMaxWidth').fancybox({
+		beforeLoad : function() {         
+            this.maxWidth  = parseInt(this.element.data('fancybox-width')); 
+        }
+	});
+});
+</script>
+
+
+</head>
+
+<body>
+
+<div id="topbar" class="">
+	<div id="new-topContent" class="container">
+		<a href="/"><img id="new-logo" src="/images/new-kcbs-logo.jpg" alt="Kansas City Barbeque Society" /></a>
+		<div id="country_select">
+			<div class="country_select_active"><div class="country_select_pad">U.S.</div></div>
+			<a class="country_select_link" href="/international">International</a><div class="country_select_pad">International</a></div>
+		</div>
+				<div id="factoids">
+			<div><strong>KANSAS CITY BARBEQUE SOCIETY &nbsp; &nbsp;</strong></div>
+			<div>FACT: There's been an 18% increase in contest participation by members in the past year &nbsp; &nbsp;</div>
+			<div>FACT: 64% of KCBS members own three or more grills/smokers &nbsp; &nbsp;</div>
+			<div>FACT: 70% of our members grill-out/cook BBQ more than 25 times per year &nbsp; &nbsp;</div>
+			<div>FACT: 56% of Americans report having a smartphone, 77% of KCBS members do &nbsp; &nbsp;</div>
+			<div>FACT: 70% of KCBS members use Facebook &nbsp; &nbsp;</div>
+			<div>FACT: 55% of members choose charcoal when cooking for leisure &nbsp; &nbsp;</div>
+			<div>FACT: 23% of KCBS members work in the food service industry as a restauranteur or caterer &nbsp; &nbsp;</div>
+			<div>FACT: Learning from friends, family and at competitions is the best way to improve cooking skills &nbsp; &nbsp;</div>
+		</div>
+				
+				
+		<div id="new-memberSigninBox" style="display: none;">
+			<form action="/member_login.php" method="post">
+				<div class="loginFields">
+					<strong>Username:</strong> <input type="text" name="username" class="topField" />
+					<strong>Password:</strong> <input type="password" name="password" class="passField" />
+					<div style="margin-top:2px;text-align:center;">
+						<strong>Remember Me</strong> <input style="height:11px;width:11px;" type="checkbox" name="rememberMe" value="1" />
+					</div>
+				</div>
+				<div class="loginActions">
+					<input type="image" src="/images/login-button.jpg" name="memberLogin" class="loginButton" /> 
+					<a href="javascript:toggleLogin(false);"><img src="/images/login-close.jpg" /></a><br />
+					<a href="/member_login.php">Need Help?</a>    		
+				</div>
+			</form>
+		</div>
+		<div id="new-clickTab"><a href="javascript:toggleLogin(true);"><strong>MEMBER<br />SIGN IN</strong></a></div>
+		
+				
+		<div id="new-whyjoin"><a href="/join.php"><strong>JOIN OR<br />RENEW</strong></a>
+			<div id="new-joinMessage">
+				<strong>Joining KCBS has its privileges!</strong>
+				<ul style="margin: 0px 0px 0px 15px; padding: 0pt;">
+					<li>The official KCBS monthly newsletter, "The Bullsheet"</li>
+					<li>Save $5 when you buy 3 bags of Adirondack Grilling Pellets</li>
+					<li>Access KCBS Preferred Rates at Choice Hotels</li>
+					<li>10% off all Creekstone Farms&reg; products</li>
+					<li>10% off any ICEHOLE Cooler or the option to customize your ICEHOLE Cooler with your team or KCBS logo for $50.00.</li>
+					<li>15% off your total order from Papa Tony's seasonings and ribs.</li>
+					<li>One-day shopping pass at any Restaurant Depot location when you present your KCBS membership card.</li>
+					<li>20% off your total order from Sadler's Smokehouse online store.</li>
+					<li>$0.50 off TABASCO Chipotle or any pepper sauce flavor!</li>
+				</ul>
+			</div>
+		</div>
+		<div id="new-socialIcons">
+			<a href="http://twitter.com/kcbbqsociety" target="_blank"><img src="/images/social-twitter.jpg" alt="Twitter" /></a> &nbsp;&nbsp;
+			<a href="http://www.facebook.com/KansasCityBarbequeSociety" target="_blank"><img src="/images/social-facebook.jpg" alt="Facebook" /></a>
+		</div>
+	</div>
+</div>
+
+<div id="header" class="container">
+	<div id="headerInt" class="grid16 centered">
+		<div id="new-ad-top">
+			<div id="new-advertise">
+				<a href="/advertising.php">Advertise with KCBS &raquo;</a>
+			</div>			
+			
+			    
+<!-- Begin -  Site: KCBS Zone: Sponsor Banners -->
+<script type='text/javascript'><!--//<![CDATA[
+   var m3_u = (location.protocol=='https:'?'https://www.mmacreative.com/openx/www/delivery/ajs.php':'http://www.mmacreative.com/openx/www/delivery/ajs.php');
+   var m3_r = Math.floor(Math.random()*99999999999);
+   if (!document.MAX_used) document.MAX_used = ',';
+   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+   document.write ("?zoneid=2");
+   document.write ('&amp;cb=' + m3_r);
+   if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+   document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+   document.write ("&amp;loc=" + escape(window.location));
+   if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+   if (document.context) document.write ("&context=" + escape(document.context));
+   if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+   document.write ("'><\/scr"+"ipt>");
+//]]>--></script><noscript><a href='http://www.mmacreative.com/openx/www/delivery/ck.php?n=af874dc1&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://www.mmacreative.com/openx/www/delivery/avw.php?zoneid=2&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=af874dc1' border='0' alt='' /></a></noscript>
+<!-- End -  Site: KCBS Zone: Sponsor Banners -->
+						
+					</div>
+		<div class="clear"><!-- x --></div>
+	</div>
+</div>
+
+<div id="main" class="container">
+
+	<div id="mainbar" class="container">
+		<div class="grid16 centered">
+			<ul id="nav" class="lavaLamp">
+				<li><a href="/">Home</a></li>
+				<li><a href="/about.php">About KCBS</a></li>
+				<li><a href="/judges">Judges</a></li>
+				<li><a href="/events">Events</a></li>
+				<li><a href="/kcbs-classes">Classes</a></li>
+				<li><a href="/teams">BBQ Teams</a></li>
+				<li><a href="/sponsors">Sponsors</a></li>
+				<li><a href="/links.php">Links</a></li>
+				<li><a href="/discount_program.php">Discounts</a></li>
+				<li><a href="/contact.php">Contact</a></li>
+			</ul>
+			<a id="navShop" class="navBtn redBG" href="http://www.kcbsgear.com" target="_blank">SHOP KCBS<div id="navflame"><!-- x --></div></a>
+			<div class="resourceDrop">
+				<a class="navBtn grayBG" href="/download">RESOURCES</a>
+				<div class="dropdown" id="resourceDown">
+					<a href="/forms">Forms</a>
+					<a href="/download">Downloads</a>
+					<a href="/links.php">Links</a>
+					<a href="/entertainment.php">Entertainment</a>
+					<a href="/recipes.php">Recipes/Tips</a>
+					<a href="/videos.php">Videos</a>
+					<a href="/philanthropy">Philanthropy</a>
+					<a href="/my-profile">My Profile</a>
+					<a href="/rep-resources">Contest Reps</a>
+					<a href="/organizer-resources">Organizers</a>
+				</div>
+	    </div>
+			<div class="clear"><!-- x --></div>
+		</div>
+	</div>			
+	  
+	<div class="grid16 centered">
+	
+				
+		<div class="grid04 float20">
+	
+			<div class="borderBox">
+   <div class="boxHead"><span class="active">EVENTS</span></div>
+   <div class="boxItem alt2">
+		<ul>
+
+
+			<li><a class="linkTitle" href="/events">KCBS Sanctioned Events</a></li>
+
+
+			<li><a class="linkTitle" href="/events/new">Recently Added Events</a></li>
+
+
+			<li><a class="linkTitle" href="/photos.php">Event Photos</a></li>
+
+
+			<li><a class="linkTitle" href="/events-map">Visual Map</a></li>
+
+
+		</ul>
+	</div>
+</div>
+               
+<div class="sideDownloadsSingle">
+	<div class="downloadItem">
+		<a href="/about_sanctioning.php">
+		<img src="/images/sanctionform.gif" alt="Sanction Request Form" /></a>
+	</div>
+	<div class="clear"><!-- x --></div>
+</div><br />
+	
+						
+			<div class="borderBox">
+				<div class="sideAd">
+	        
+	<!-- Begin -  Site: KCBS Zone: MMA Events -->
+	
+	<script type='text/javascript'><!--//<![CDATA[
+	   var m3_u = (location.protocol=='https:'?'https://www.mmacreative.com/openx/www/delivery/ajs.php':'http://www.mmacreative.com/openx/www/delivery/ajs.php');
+	   var m3_r = Math.floor(Math.random()*99999999999);
+	   if (!document.MAX_used) document.MAX_used = ',';
+	   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+	   document.write ("?zoneid=3&amp;block=1");
+	   document.write ('&amp;cb=' + m3_r);
+	   if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+	   document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+	   document.write ("&amp;loc=" + escape(window.location));
+	   if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+	   if (document.context) document.write ("&context=" + escape(document.context));
+	   if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+	   document.write ("'><\/scr"+"ipt>");
+	//]]>--></script><noscript><a href='http://www.mmacreative.com/openx/www/delivery/ck.php?n=ac487a8a&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://www.mmacreative.com/openx/www/delivery/avw.php?zoneid=3&amp;n=ac487a8a' border='0' alt='' /></a></noscript>
+	<!-- End -  Site: KCBS Zone: MMA Events -->
+		
+				</div>
+			</div>
+			
+						
+			<div class="borderBox">
+				<div class="sideAd">
+	        
+	<!-- Begin -  Site: KCBS Zone: MMA Events -->
+	
+	<script type='text/javascript'><!--//<![CDATA[
+	   var m3_u = (location.protocol=='https:'?'https://www.mmacreative.com/openx/www/delivery/ajs.php':'http://www.mmacreative.com/openx/www/delivery/ajs.php');
+	   var m3_r = Math.floor(Math.random()*99999999999);
+	   if (!document.MAX_used) document.MAX_used = ',';
+	   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+	   document.write ("?zoneid=3&amp;block=1");
+	   document.write ('&amp;cb=' + m3_r);
+	   if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+	   document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+	   document.write ("&amp;loc=" + escape(window.location));
+	   if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+	   if (document.context) document.write ("&context=" + escape(document.context));
+	   if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+	   document.write ("'><\/scr"+"ipt>");
+	//]]>--></script><noscript><a href='http://www.mmacreative.com/openx/www/delivery/ck.php?n=ac487a8a&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://www.mmacreative.com/openx/www/delivery/avw.php?zoneid=3&amp;n=ac487a8a' border='0' alt='' /></a></noscript>
+	<!-- End -  Site: KCBS Zone: MMA Events -->
+		
+				</div>
+			</div>
+			
+						
+			<div class="borderBox">
+				<div class="sideAd">
+	        
+	<!-- Begin -  Site: KCBS Zone: MMA Events -->
+	
+	<script type='text/javascript'><!--//<![CDATA[
+	   var m3_u = (location.protocol=='https:'?'https://www.mmacreative.com/openx/www/delivery/ajs.php':'http://www.mmacreative.com/openx/www/delivery/ajs.php');
+	   var m3_r = Math.floor(Math.random()*99999999999);
+	   if (!document.MAX_used) document.MAX_used = ',';
+	   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+	   document.write ("?zoneid=3&amp;block=1");
+	   document.write ('&amp;cb=' + m3_r);
+	   if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+	   document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+	   document.write ("&amp;loc=" + escape(window.location));
+	   if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+	   if (document.context) document.write ("&context=" + escape(document.context));
+	   if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+	   document.write ("'><\/scr"+"ipt>");
+	//]]>--></script><noscript><a href='http://www.mmacreative.com/openx/www/delivery/ck.php?n=ac487a8a&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://www.mmacreative.com/openx/www/delivery/avw.php?zoneid=3&amp;n=ac487a8a' border='0' alt='' /></a></noscript>
+	<!-- End -  Site: KCBS Zone: MMA Events -->
+		
+				</div>
+			</div>
+			
+							
+		</div>
+		
+				
+		<div id="mainContent" class="grid12 float">
+		
+			<div id="mainContentInterior">
+			
+				
+<p><a href="/events">&laquo; Back to events list</a></p>
+
+<h1 class="event_head">Ointoberfest BBQ Cookoff</h1>
+
+<div class="grid07 float20">
+
+	<div id="event_subhead">
+		Clarence, NY<br />
+		September 23 - 24, 2016	</div>
+
+		<p>
+				
+				
+				<strong><em>STATE CHAMPIONSHIP</em></strong>
+			</p>
+		
+	<p>
+		
+				<strong>Website:</strong> <a href="http://www.oinktoberfest.com" target="_blank">http://www.oinktoberfest.com</a><br />
+				
+				
+				<strong>KCBS Reps:</strong> DON MULLER, NANCY MULLER<br />
+				
+		<strong>Contest Number:</strong> 6329<br />
+		
+				<strong>Prize Money:</strong> $8,800<br />
+				
+			
+	</p>
+	
+		<p>
+		<strong>Contact Information:</strong><br />
+		
+				
+		Katy Toth<br />
+		
+				
+				
+					Clarence, NY 14031<br />
+				
+					Phone: 716-759-8483<br />
+				
+				
+					<a href="mailto:katy@oinktoberfest.com">katy@oinktoberfest.com</a><br />
+				
+		<br />
+		
+				
+	</p>
+		
+		
+		
+	<p>
+		<span class="spanh2">Results</span> &nbsp;&nbsp;
+		<a href="/results_print_clean.php?id=6329" target="_blank">View Printable</a>
+	</p>
+	<p>
+		<strong>Grand Champion:</strong> Priorville BBQ<br />
+		<strong>Reserve Champion:</strong> GOOD SMOKE BBQ	</p>
+	
+		
+		
+			<table class="contestResults">
+		<tr>
+			<th colspan="3">Overall</th>
+		</tr>
+				<tr class="alt">
+			<td align="right">1</td>
+			<td>Priorville BBQ</td>
+			<td align="right">675.3712</td>
+		</tr>
+				<tr >
+			<td align="right">2</td>
+			<td>GOOD SMOKE BBQ</td>
+			<td align="right">666.8344</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">3</td>
+			<td>TRANQUIL CARNIVORES</td>
+			<td align="right">661.0972</td>
+		</tr>
+				<tr >
+			<td align="right">4</td>
+			<td>SPITTIN' FEATHERS BBQ</td>
+			<td align="right">660.5600</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">5</td>
+			<td>KISS MY BBQ</td>
+			<td align="right">660.0572</td>
+		</tr>
+				<tr >
+			<td align="right">6</td>
+			<td>BOVINE MAFIA</td>
+			<td align="right">658.3088</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">7</td>
+			<td>HELLFIRE BBQ NEW YORK</td>
+			<td align="right">657.0856</td>
+		</tr>
+				<tr >
+			<td align="right">8</td>
+			<td>SLIPPERY PETE'S BBQ</td>
+			<td align="right">655.3596</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">9</td>
+			<td>SMOKIN BOYS AND HOT GRILLS</td>
+			<td align="right">655.2912</td>
+		</tr>
+				<tr >
+			<td align="right">10</td>
+			<td>SWEET HEAT BBQ</td>
+			<td align="right">654.7888</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">11</td>
+			<td>SUCKA BONE BBQ TEAM</td>
+			<td align="right">653.0744</td>
+		</tr>
+				<tr >
+			<td align="right">12</td>
+			<td>THE GOOD CUE CREW</td>
+			<td align="right">648.5028</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">13</td>
+			<td>WHISKEY'N'CLEAVERS</td>
+			<td align="right">647.2912</td>
+		</tr>
+				<tr >
+			<td align="right">14</td>
+			<td>Just 4 Fun BBQ</td>
+			<td align="right">646.3084</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">15</td>
+			<td>Valley Smoke BBQ</td>
+			<td align="right">646.2512</td>
+		</tr>
+				<tr >
+			<td align="right">16</td>
+			<td>MORT'S MEAT MAFIA</td>
+			<td align="right">645.6116</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">17</td>
+			<td>SHORTSVILLE SMOKERS</td>
+			<td align="right">645.5656</td>
+		</tr>
+				<tr >
+			<td align="right">18</td>
+			<td>PORK NINJAS</td>
+			<td align="right">644.6860</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">19</td>
+			<td>CARNIVORE'S HEAVEN</td>
+			<td align="right">643.4056</td>
+		</tr>
+				<tr >
+			<td align="right">20</td>
+			<td>Nickel City Smokers</td>
+			<td align="right">641.0744</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">21</td>
+			<td>BEHIND BBQ</td>
+			<td align="right">639.8860</td>
+		</tr>
+				<tr >
+			<td align="right">22</td>
+			<td>CHOPLICKERS BBQ</td>
+			<td align="right">637.6568</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">23</td>
+			<td>B & B BBQ COMPANY</td>
+			<td align="right">637.6344</td>
+		</tr>
+				<tr >
+			<td align="right">24</td>
+			<td>BIG BELLY BBQ</td>
+			<td align="right">637.2232</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">25</td>
+			<td>BLACK DAWG BBQ</td>
+			<td align="right">637.1428</td>
+		</tr>
+				<tr >
+			<td align="right">26</td>
+			<td>SMOKIN' AIN'T EASY</td>
+			<td align="right">636.4456</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">27</td>
+			<td>MEAN MOE'S BBQ</td>
+			<td align="right">634.1256</td>
+		</tr>
+				<tr >
+			<td align="right">28</td>
+			<td>HANGING BELLIES BBQ</td>
+			<td align="right">631.3488</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">29</td>
+			<td>HOLY SMOKES NY</td>
+			<td align="right">628.5260</td>
+		</tr>
+				<tr >
+			<td align="right">30</td>
+			<td>CHILLIN N GRILLIN BBQ COMPANY</td>
+			<td align="right">628.4688</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">31</td>
+			<td>RUSTY'S SMOKE BBQ</td>
+			<td align="right">625.5544</td>
+		</tr>
+				<tr >
+			<td align="right">32</td>
+			<td>Pistol Packin Piggies</td>
+			<td align="right">624.9484</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">33</td>
+			<td>ROUTE 5 SMOKEHAUS</td>
+			<td align="right">623.7940</td>
+		</tr>
+				<tr >
+			<td align="right">34</td>
+			<td>Butts & Links Bbq</td>
+			<td align="right">622.7544</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">35</td>
+			<td>RED VALLEY BBQ</td>
+			<td align="right">622.7544</td>
+		</tr>
+				<tr >
+			<td align="right">36</td>
+			<td>COMIN' IN HOT BBQ</td>
+			<td align="right">622.1600</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">37</td>
+			<td>Aces & Eights</td>
+			<td align="right">619.2908</td>
+		</tr>
+				<tr >
+			<td align="right">38</td>
+			<td>BOY MEETS GRILL</td>
+			<td align="right">616.5488</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">39</td>
+			<td>J-Cue</td>
+			<td align="right">611.8628</td>
+		</tr>
+				<tr >
+			<td align="right">40</td>
+			<td>SMOKEZILLA BBQ TEAM</td>
+			<td align="right">611.3372</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">41</td>
+			<td>Smoke This!!</td>
+			<td align="right">610.1716</td>
+		</tr>
+				<tr >
+			<td align="right">42</td>
+			<td>HAWKEYEBBQ</td>
+			<td align="right">610.1256</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">43</td>
+			<td>BLAZIN BO'S BBQ</td>
+			<td align="right">609.6344</td>
+		</tr>
+				<tr >
+			<td align="right">44</td>
+			<td>Misfits of Meat</td>
+			<td align="right">605.7256</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">45</td>
+			<td>BUTT UP OR SHUT UP</td>
+			<td align="right">605.6344</td>
+		</tr>
+				<tr >
+			<td align="right">46</td>
+			<td>NAKED BASTARDS BBQ</td>
+			<td align="right">603.8740</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">47</td>
+			<td>CHUCK AND ANG'S BBQ CREW</td>
+			<td align="right">602.1944</td>
+		</tr>
+				<tr >
+			<td align="right">48</td>
+			<td>HUCKLEBERRY'S SMOKE THERAPY</td>
+			<td align="right">597.6456</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">49</td>
+			<td>THAT OLD TRICK BBQ</td>
+			<td align="right">596.5372</td>
+		</tr>
+				<tr >
+			<td align="right">50</td>
+			<td>J & J Backyard BBQ</td>
+			<td align="right">595.9200</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">51</td>
+			<td>JAKE N' BUCK'S BBQ</td>
+			<td align="right">589.0740</td>
+		</tr>
+				<tr >
+			<td align="right">52</td>
+			<td>BLACK HART BBQ</td>
+			<td align="right">587.7488</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">53</td>
+			<td>CENTAUR BBQ</td>
+			<td align="right">578.2404</td>
+		</tr>
+				<tr >
+			<td align="right">54</td>
+			<td>BABZ BBQ</td>
+			<td align="right">576.9480</td>
+		</tr>
+			</table>
+			<table class="contestResults">
+		<tr>
+			<th colspan="3">Chicken</th>
+		</tr>
+				<tr class="alt">
+			<td align="right">1</td>
+			<td>SHORTSVILLE SMOKERS</td>
+			<td align="right">173.1200</td>
+		</tr>
+				<tr >
+			<td align="right">2</td>
+			<td>Priorville BBQ</td>
+			<td align="right">170.8228</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">3</td>
+			<td>TRANQUIL CARNIVORES</td>
+			<td align="right">170.2856</td>
+		</tr>
+				<tr >
+			<td align="right">4</td>
+			<td>THE GOOD CUE CREW</td>
+			<td align="right">170.2628</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">5</td>
+			<td>J-Cue</td>
+			<td align="right">169.7484</td>
+		</tr>
+				<tr >
+			<td align="right">6</td>
+			<td>KISS MY BBQ</td>
+			<td align="right">169.1772</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">7</td>
+			<td>SMOKEZILLA BBQ TEAM</td>
+			<td align="right">169.1544</td>
+		</tr>
+				<tr >
+			<td align="right">8</td>
+			<td>B & B BBQ COMPANY</td>
+			<td align="right">169.1316</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">9</td>
+			<td>SLIPPERY PETE'S BBQ</td>
+			<td align="right">168.5828</td>
+		</tr>
+				<tr >
+			<td align="right">10</td>
+			<td>ROUTE 5 SMOKEHAUS</td>
+			<td align="right">167.4288</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">11</td>
+			<td>SWEET HEAT BBQ</td>
+			<td align="right">166.2972</td>
+		</tr>
+				<tr >
+			<td align="right">12</td>
+			<td>BOVINE MAFIA</td>
+			<td align="right">165.6800</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">13</td>
+			<td>RED VALLEY BBQ</td>
+			<td align="right">165.1084</td>
+		</tr>
+				<tr >
+			<td align="right">14</td>
+			<td>COMIN' IN HOT BBQ</td>
+			<td align="right">164.5828</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">15</td>
+			<td>MORT'S MEAT MAFIA</td>
+			<td align="right">164.5256</td>
+		</tr>
+				<tr >
+			<td align="right">16</td>
+			<td>PORK NINJAS</td>
+			<td align="right">164.0344</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">17</td>
+			<td>Valley Smoke BBQ</td>
+			<td align="right">164.0000</td>
+		</tr>
+				<tr >
+			<td align="right">18</td>
+			<td>BOY MEETS GRILL</td>
+			<td align="right">163.4056</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">19</td>
+			<td>MEAN MOE'S BBQ</td>
+			<td align="right">163.3712</td>
+		</tr>
+				<tr >
+			<td align="right">20</td>
+			<td>SMOKIN BOYS AND HOT GRILLS</td>
+			<td align="right">163.3712</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">21</td>
+			<td>RUSTY'S SMOKE BBQ</td>
+			<td align="right">162.8344</td>
+		</tr>
+				<tr >
+			<td align="right">22</td>
+			<td>BEHIND BBQ</td>
+			<td align="right">162.3088</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">23</td>
+			<td>BLACK DAWG BBQ</td>
+			<td align="right">162.3084</td>
+		</tr>
+				<tr >
+			<td align="right">24</td>
+			<td>CHILLIN N GRILLIN BBQ COMPANY</td>
+			<td align="right">161.7028</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">25</td>
+			<td>CARNIVORE'S HEAVEN</td>
+			<td align="right">161.6912</td>
+		</tr>
+				<tr >
+			<td align="right">26</td>
+			<td>BIG BELLY BBQ</td>
+			<td align="right">161.6800</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">27</td>
+			<td>BLAZIN BO'S BBQ</td>
+			<td align="right">160.5944</td>
+		</tr>
+				<tr >
+			<td align="right">28</td>
+			<td>CHOPLICKERS BBQ</td>
+			<td align="right">160.5828</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">29</td>
+			<td>SMOKIN' AIN'T EASY</td>
+			<td align="right">159.9656</td>
+		</tr>
+				<tr >
+			<td align="right">30</td>
+			<td>WHISKEY'N'CLEAVERS</td>
+			<td align="right">158.8456</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">31</td>
+			<td>SUCKA BONE BBQ TEAM</td>
+			<td align="right">158.8344</td>
+		</tr>
+				<tr >
+			<td align="right">32</td>
+			<td>NAKED BASTARDS BBQ</td>
+			<td align="right">158.2512</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">33</td>
+			<td>Aces & Eights</td>
+			<td align="right">158.2284</td>
+		</tr>
+				<tr >
+			<td align="right">34</td>
+			<td>Butts & Links Bbq</td>
+			<td align="right">157.6800</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">35</td>
+			<td>HUCKLEBERRY'S SMOKE THERAPY</td>
+			<td align="right">157.1428</td>
+		</tr>
+				<tr >
+			<td align="right">36</td>
+			<td>SPITTIN' FEATHERS BBQ</td>
+			<td align="right">157.1200</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">37</td>
+			<td>HELLFIRE BBQ NEW YORK</td>
+			<td align="right">157.1084</td>
+		</tr>
+				<tr >
+			<td align="right">38</td>
+			<td>Pistol Packin Piggies</td>
+			<td align="right">155.9312</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">39</td>
+			<td>BABZ BBQ</td>
+			<td align="right">154.2972</td>
+		</tr>
+				<tr >
+			<td align="right">40</td>
+			<td>Just 4 Fun BBQ</td>
+			<td align="right">154.2512</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">41</td>
+			<td>CENTAUR BBQ</td>
+			<td align="right">153.7028</td>
+		</tr>
+				<tr >
+			<td align="right">42</td>
+			<td>Nickel City Smokers</td>
+			<td align="right">153.6800</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">43</td>
+			<td>GOOD SMOKE BBQ</td>
+			<td align="right">151.9544</td>
+		</tr>
+				<tr >
+			<td align="right">44</td>
+			<td>BUTT UP OR SHUT UP</td>
+			<td align="right">151.4056</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">45</td>
+			<td>Smoke This!!</td>
+			<td align="right">151.3944</td>
+		</tr>
+				<tr >
+			<td align="right">46</td>
+			<td>J & J Backyard BBQ</td>
+			<td align="right">149.1200</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">47</td>
+			<td>Misfits of Meat</td>
+			<td align="right">147.4628</td>
+		</tr>
+				<tr >
+			<td align="right">48</td>
+			<td>BLACK HART BBQ</td>
+			<td align="right">146.2172</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">49</td>
+			<td>HAWKEYEBBQ</td>
+			<td align="right">145.6684</td>
+		</tr>
+				<tr >
+			<td align="right">50</td>
+			<td>JAKE N' BUCK'S BBQ</td>
+			<td align="right">142.8228</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">51</td>
+			<td>HANGING BELLIES BBQ</td>
+			<td align="right">141.6228</td>
+		</tr>
+				<tr >
+			<td align="right">52</td>
+			<td>CHUCK AND ANG'S BBQ CREW</td>
+			<td align="right">139.3828</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">53</td>
+			<td>HOLY SMOKES NY</td>
+			<td align="right">138.8460</td>
+		</tr>
+				<tr >
+			<td align="right">54</td>
+			<td>THAT OLD TRICK BBQ</td>
+			<td align="right">138.8344</td>
+		</tr>
+			</table>
+			<table class="contestResults">
+		<tr>
+			<th colspan="3">Pork Ribs</th>
+		</tr>
+				<tr class="alt">
+			<td align="right">1</td>
+			<td>Butts & Links Bbq</td>
+			<td align="right">176.0572</td>
+		</tr>
+				<tr >
+			<td align="right">2</td>
+			<td>BOVINE MAFIA</td>
+			<td align="right">172.6288</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">3</td>
+			<td>HOLY SMOKES NY</td>
+			<td align="right">172.0000</td>
+		</tr>
+				<tr >
+			<td align="right">4</td>
+			<td>TRANQUIL CARNIVORES</td>
+			<td align="right">170.8688</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">5</td>
+			<td>SLIPPERY PETE'S BBQ</td>
+			<td align="right">169.7256</td>
+		</tr>
+				<tr >
+			<td align="right">6</td>
+			<td>Nickel City Smokers</td>
+			<td align="right">169.1200</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">7</td>
+			<td>SPITTIN' FEATHERS BBQ</td>
+			<td align="right">168.5600</td>
+		</tr>
+				<tr >
+			<td align="right">8</td>
+			<td>GOOD SMOKE BBQ</td>
+			<td align="right">167.4172</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">9</td>
+			<td>Priorville BBQ</td>
+			<td align="right">167.4056</td>
+		</tr>
+				<tr >
+			<td align="right">10</td>
+			<td>Misfits of Meat</td>
+			<td align="right">166.3200</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">11</td>
+			<td>HELLFIRE BBQ NEW YORK</td>
+			<td align="right">165.1316</td>
+		</tr>
+				<tr >
+			<td align="right">12</td>
+			<td>SMOKIN BOYS AND HOT GRILLS</td>
+			<td align="right">163.9772</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">13</td>
+			<td>WHISKEY'N'CLEAVERS</td>
+			<td align="right">163.9312</td>
+		</tr>
+				<tr >
+			<td align="right">14</td>
+			<td>Valley Smoke BBQ</td>
+			<td align="right">163.4056</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">15</td>
+			<td>PORK NINJAS</td>
+			<td align="right">162.9144</td>
+		</tr>
+				<tr >
+			<td align="right">16</td>
+			<td>KISS MY BBQ</td>
+			<td align="right">162.8800</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">17</td>
+			<td>CARNIVORE'S HEAVEN</td>
+			<td align="right">162.3088</td>
+		</tr>
+				<tr >
+			<td align="right">18</td>
+			<td>SHORTSVILLE SMOKERS</td>
+			<td align="right">159.9428</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">19</td>
+			<td>BIG BELLY BBQ</td>
+			<td align="right">159.4516</td>
+		</tr>
+				<tr >
+			<td align="right">20</td>
+			<td>COMIN' IN HOT BBQ</td>
+			<td align="right">158.8228</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">21</td>
+			<td>B & B BBQ COMPANY</td>
+			<td align="right">158.2400</td>
+		</tr>
+				<tr >
+			<td align="right">22</td>
+			<td>SMOKIN' AIN'T EASY</td>
+			<td align="right">157.6456</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">23</td>
+			<td>Just 4 Fun BBQ</td>
+			<td align="right">157.1200</td>
+		</tr>
+				<tr >
+			<td align="right">24</td>
+			<td>HANGING BELLIES BBQ</td>
+			<td align="right">156.5944</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">25</td>
+			<td>CHILLIN N GRILLIN BBQ COMPANY</td>
+			<td align="right">156.5716</td>
+		</tr>
+				<tr >
+			<td align="right">26</td>
+			<td>THE GOOD CUE CREW</td>
+			<td align="right">156.5600</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">27</td>
+			<td>CHUCK AND ANG'S BBQ CREW</td>
+			<td align="right">156.0344</td>
+		</tr>
+				<tr >
+			<td align="right">28</td>
+			<td>CHOPLICKERS BBQ</td>
+			<td align="right">155.9884</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">29</td>
+			<td>BLACK DAWG BBQ</td>
+			<td align="right">155.9772</td>
+		</tr>
+				<tr >
+			<td align="right">30</td>
+			<td>BOY MEETS GRILL</td>
+			<td align="right">155.4860</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">31</td>
+			<td>NAKED BASTARDS BBQ</td>
+			<td align="right">155.4056</td>
+		</tr>
+				<tr >
+			<td align="right">32</td>
+			<td>J-Cue</td>
+			<td align="right">153.6344</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">33</td>
+			<td>RUSTY'S SMOKE BBQ</td>
+			<td align="right">153.0856</td>
+		</tr>
+				<tr >
+			<td align="right">34</td>
+			<td>Smoke This!!</td>
+			<td align="right">151.9772</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">35</td>
+			<td>BEHIND BBQ</td>
+			<td align="right">151.9544</td>
+		</tr>
+				<tr >
+			<td align="right">36</td>
+			<td>Aces & Eights</td>
+			<td align="right">151.4056</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">37</td>
+			<td>SUCKA BONE BBQ TEAM</td>
+			<td align="right">151.3944</td>
+		</tr>
+				<tr >
+			<td align="right">38</td>
+			<td>JAKE N' BUCK'S BBQ</td>
+			<td align="right">150.8800</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">39</td>
+			<td>RED VALLEY BBQ</td>
+			<td align="right">150.8344</td>
+		</tr>
+				<tr >
+			<td align="right">40</td>
+			<td>Pistol Packin Piggies</td>
+			<td align="right">150.2516</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">41</td>
+			<td>MORT'S MEAT MAFIA</td>
+			<td align="right">150.2172</td>
+		</tr>
+				<tr >
+			<td align="right">42</td>
+			<td>BUTT UP OR SHUT UP</td>
+			<td align="right">149.7032</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">43</td>
+			<td>HAWKEYEBBQ</td>
+			<td align="right">149.0628</td>
+		</tr>
+				<tr >
+			<td align="right">44</td>
+			<td>J & J Backyard BBQ</td>
+			<td align="right">148.5832</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">45</td>
+			<td>THAT OLD TRICK BBQ</td>
+			<td align="right">147.4056</td>
+		</tr>
+				<tr >
+			<td align="right">46</td>
+			<td>BLAZIN BO'S BBQ</td>
+			<td align="right">146.8000</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">47</td>
+			<td>ROUTE 5 SMOKEHAUS</td>
+			<td align="right">145.6684</td>
+		</tr>
+				<tr >
+			<td align="right">48</td>
+			<td>MEAN MOE'S BBQ</td>
+			<td align="right">143.3716</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">49</td>
+			<td>SWEET HEAT BBQ</td>
+			<td align="right">142.1944</td>
+		</tr>
+				<tr >
+			<td align="right">50</td>
+			<td>BLACK HART BBQ</td>
+			<td align="right">140.5488</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">51</td>
+			<td>SMOKEZILLA BBQ TEAM</td>
+			<td align="right">139.3600</td>
+		</tr>
+				<tr >
+			<td align="right">52</td>
+			<td>HUCKLEBERRY'S SMOKE THERAPY</td>
+			<td align="right">137.6456</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">53</td>
+			<td>BABZ BBQ</td>
+			<td align="right">135.4284</td>
+		</tr>
+				<tr >
+			<td align="right">54</td>
+			<td>CENTAUR BBQ</td>
+			<td align="right">120.5032</td>
+		</tr>
+			</table>
+			<table class="contestResults">
+		<tr>
+			<th colspan="3">Pork</th>
+		</tr>
+				<tr class="alt">
+			<td align="right">1</td>
+			<td>GOOD SMOKE BBQ</td>
+			<td align="right">174.8800</td>
+		</tr>
+				<tr >
+			<td align="right">2</td>
+			<td>MEAN MOE'S BBQ</td>
+			<td align="right">174.3200</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">3</td>
+			<td>HELLFIRE BBQ NEW YORK</td>
+			<td align="right">170.2856</td>
+		</tr>
+				<tr >
+			<td align="right">4</td>
+			<td>SWEET HEAT BBQ</td>
+			<td align="right">169.7144</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">5</td>
+			<td>SPITTIN' FEATHERS BBQ</td>
+			<td align="right">169.1428</td>
+		</tr>
+				<tr >
+			<td align="right">6</td>
+			<td>Priorville BBQ</td>
+			<td align="right">168.0000</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">7</td>
+			<td>SMOKIN' AIN'T EASY</td>
+			<td align="right">168.0000</td>
+		</tr>
+				<tr >
+			<td align="right">8</td>
+			<td>HAWKEYEBBQ</td>
+			<td align="right">166.8800</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">9</td>
+			<td>HANGING BELLIES BBQ</td>
+			<td align="right">166.8572</td>
+		</tr>
+				<tr >
+			<td align="right">10</td>
+			<td>THE GOOD CUE CREW</td>
+			<td align="right">166.2628</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">11</td>
+			<td>Pistol Packin Piggies</td>
+			<td align="right">166.2400</td>
+		</tr>
+				<tr >
+			<td align="right">12</td>
+			<td>CHILLIN N GRILLIN BBQ COMPANY</td>
+			<td align="right">165.6800</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">13</td>
+			<td>KISS MY BBQ</td>
+			<td align="right">165.1312</td>
+		</tr>
+				<tr >
+			<td align="right">14</td>
+			<td>SUCKA BONE BBQ TEAM</td>
+			<td align="right">165.1084</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">15</td>
+			<td>Just 4 Fun BBQ</td>
+			<td align="right">164.0000</td>
+		</tr>
+				<tr >
+			<td align="right">16</td>
+			<td>ROUTE 5 SMOKEHAUS</td>
+			<td align="right">163.9656</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">17</td>
+			<td>RUSTY'S SMOKE BBQ</td>
+			<td align="right">163.4172</td>
+		</tr>
+				<tr >
+			<td align="right">18</td>
+			<td>B & B BBQ COMPANY</td>
+			<td align="right">163.4172</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">19</td>
+			<td>HOLY SMOKES NY</td>
+			<td align="right">163.4172</td>
+		</tr>
+				<tr >
+			<td align="right">20</td>
+			<td>BIG BELLY BBQ</td>
+			<td align="right">162.9028</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">21</td>
+			<td>WHISKEY'N'CLEAVERS</td>
+			<td align="right">162.8228</td>
+		</tr>
+				<tr >
+			<td align="right">22</td>
+			<td>SMOKIN BOYS AND HOT GRILLS</td>
+			<td align="right">162.8228</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">23</td>
+			<td>MORT'S MEAT MAFIA</td>
+			<td align="right">161.1200</td>
+		</tr>
+				<tr >
+			<td align="right">24</td>
+			<td>COMIN' IN HOT BBQ</td>
+			<td align="right">161.1200</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">25</td>
+			<td>CARNIVORE'S HEAVEN</td>
+			<td align="right">160.5828</td>
+		</tr>
+				<tr >
+			<td align="right">26</td>
+			<td>Smoke This!!</td>
+			<td align="right">160.5828</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">27</td>
+			<td>BOVINE MAFIA</td>
+			<td align="right">160.5600</td>
+		</tr>
+				<tr >
+			<td align="right">28</td>
+			<td>TRANQUIL CARNIVORES</td>
+			<td align="right">159.3940</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">29</td>
+			<td>BEHIND BBQ</td>
+			<td align="right">159.3828</td>
+		</tr>
+				<tr >
+			<td align="right">30</td>
+			<td>Nickel City Smokers</td>
+			<td align="right">158.8572</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">31</td>
+			<td>THAT OLD TRICK BBQ</td>
+			<td align="right">158.8456</td>
+		</tr>
+				<tr >
+			<td align="right">32</td>
+			<td>Valley Smoke BBQ</td>
+			<td align="right">157.0972</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">33</td>
+			<td>SHORTSVILLE SMOKERS</td>
+			<td align="right">157.0972</td>
+		</tr>
+				<tr >
+			<td align="right">34</td>
+			<td>Aces & Eights</td>
+			<td align="right">156.5712</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">35</td>
+			<td>BUTT UP OR SHUT UP</td>
+			<td align="right">156.5484</td>
+		</tr>
+				<tr >
+			<td align="right">36</td>
+			<td>CENTAUR BBQ</td>
+			<td align="right">155.9772</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">37</td>
+			<td>BLACK DAWG BBQ</td>
+			<td align="right">154.8344</td>
+		</tr>
+				<tr >
+			<td align="right">38</td>
+			<td>BLACK HART BBQ</td>
+			<td align="right">154.8000</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">39</td>
+			<td>CHOPLICKERS BBQ</td>
+			<td align="right">153.7028</td>
+		</tr>
+				<tr >
+			<td align="right">40</td>
+			<td>PORK NINJAS</td>
+			<td align="right">152.5828</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">41</td>
+			<td>J & J Backyard BBQ</td>
+			<td align="right">152.5484</td>
+		</tr>
+				<tr >
+			<td align="right">42</td>
+			<td>Butts & Links Bbq</td>
+			<td align="right">151.9544</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">43</td>
+			<td>RED VALLEY BBQ</td>
+			<td align="right">151.4516</td>
+		</tr>
+				<tr >
+			<td align="right">44</td>
+			<td>SLIPPERY PETE'S BBQ</td>
+			<td align="right">150.7884</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">45</td>
+			<td>BLAZIN BO'S BBQ</td>
+			<td align="right">149.6684</td>
+		</tr>
+				<tr >
+			<td align="right">46</td>
+			<td>SMOKEZILLA BBQ TEAM</td>
+			<td align="right">149.1428</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">47</td>
+			<td>BOY MEETS GRILL</td>
+			<td align="right">148.5600</td>
+		</tr>
+				<tr >
+			<td align="right">48</td>
+			<td>JAKE N' BUCK'S BBQ</td>
+			<td align="right">147.3940</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">49</td>
+			<td>BABZ BBQ</td>
+			<td align="right">146.7768</td>
+		</tr>
+				<tr >
+			<td align="right">50</td>
+			<td>CHUCK AND ANG'S BBQ CREW</td>
+			<td align="right">142.2056</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">51</td>
+			<td>Misfits of Meat</td>
+			<td align="right">140.5600</td>
+		</tr>
+				<tr >
+			<td align="right">52</td>
+			<td>J-Cue</td>
+			<td align="right">139.3828</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">53</td>
+			<td>NAKED BASTARDS BBQ</td>
+			<td align="right">138.2400</td>
+		</tr>
+				<tr >
+			<td align="right">54</td>
+			<td>HUCKLEBERRY'S SMOKE THERAPY</td>
+			<td align="right">138.2284</td>
+		</tr>
+			</table>
+			<table class="contestResults">
+		<tr>
+			<th colspan="3">Brisket</th>
+		</tr>
+				<tr class="alt">
+			<td align="right">1</td>
+			<td>SUCKA BONE BBQ TEAM</td>
+			<td align="right">177.7372</td>
+		</tr>
+				<tr >
+			<td align="right">2</td>
+			<td>SWEET HEAT BBQ</td>
+			<td align="right">176.5828</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">3</td>
+			<td>GOOD SMOKE BBQ</td>
+			<td align="right">172.5828</td>
+		</tr>
+				<tr >
+			<td align="right">4</td>
+			<td>Just 4 Fun BBQ</td>
+			<td align="right">170.9372</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">5</td>
+			<td>MORT'S MEAT MAFIA</td>
+			<td align="right">169.7488</td>
+		</tr>
+				<tr >
+			<td align="right">6</td>
+			<td>Priorville BBQ</td>
+			<td align="right">169.1428</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">7</td>
+			<td>CHOPLICKERS BBQ</td>
+			<td align="right">167.3828</td>
+		</tr>
+				<tr >
+			<td align="right">8</td>
+			<td>HANGING BELLIES BBQ</td>
+			<td align="right">166.2744</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">9</td>
+			<td>SLIPPERY PETE'S BBQ</td>
+			<td align="right">166.2628</td>
+		</tr>
+				<tr >
+			<td align="right">10</td>
+			<td>BEHIND BBQ</td>
+			<td align="right">166.2400</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">11</td>
+			<td>SPITTIN' FEATHERS BBQ</td>
+			<td align="right">165.7372</td>
+		</tr>
+				<tr >
+			<td align="right">12</td>
+			<td>PORK NINJAS</td>
+			<td align="right">165.1544</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">13</td>
+			<td>SMOKIN BOYS AND HOT GRILLS</td>
+			<td align="right">165.1200</td>
+		</tr>
+				<tr >
+			<td align="right">14</td>
+			<td>HUCKLEBERRY'S SMOKE THERAPY</td>
+			<td align="right">164.6288</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">15</td>
+			<td>CHUCK AND ANG'S BBQ CREW</td>
+			<td align="right">164.5716</td>
+		</tr>
+				<tr >
+			<td align="right">16</td>
+			<td>HELLFIRE BBQ NEW YORK</td>
+			<td align="right">164.5600</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">17</td>
+			<td>BLACK DAWG BBQ</td>
+			<td align="right">164.0228</td>
+		</tr>
+				<tr >
+			<td align="right">18</td>
+			<td>KISS MY BBQ</td>
+			<td align="right">162.8688</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">19</td>
+			<td>Valley Smoke BBQ</td>
+			<td align="right">161.7484</td>
+		</tr>
+				<tr >
+			<td align="right">20</td>
+			<td>WHISKEY'N'CLEAVERS</td>
+			<td align="right">161.6916</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">21</td>
+			<td>TRANQUIL CARNIVORES</td>
+			<td align="right">160.5488</td>
+		</tr>
+				<tr >
+			<td align="right">22</td>
+			<td>BOVINE MAFIA</td>
+			<td align="right">159.4400</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">23</td>
+			<td>Nickel City Smokers</td>
+			<td align="right">159.4172</td>
+		</tr>
+				<tr >
+			<td align="right">24</td>
+			<td>CARNIVORE'S HEAVEN</td>
+			<td align="right">158.8228</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">25</td>
+			<td>THE GOOD CUE CREW</td>
+			<td align="right">155.4172</td>
+		</tr>
+				<tr >
+			<td align="right">26</td>
+			<td>SHORTSVILLE SMOKERS</td>
+			<td align="right">155.4056</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">27</td>
+			<td>RED VALLEY BBQ</td>
+			<td align="right">155.3600</td>
+		</tr>
+				<tr >
+			<td align="right">28</td>
+			<td>HOLY SMOKES NY</td>
+			<td align="right">154.2628</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">29</td>
+			<td>SMOKEZILLA BBQ TEAM</td>
+			<td align="right">153.6800</td>
+		</tr>
+				<tr >
+			<td align="right">30</td>
+			<td>BIG BELLY BBQ</td>
+			<td align="right">153.1888</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">31</td>
+			<td>Aces & Eights</td>
+			<td align="right">153.0856</td>
+		</tr>
+				<tr >
+			<td align="right">32</td>
+			<td>MEAN MOE'S BBQ</td>
+			<td align="right">153.0628</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">33</td>
+			<td>BLAZIN BO'S BBQ</td>
+			<td align="right">152.5716</td>
+		</tr>
+				<tr >
+			<td align="right">34</td>
+			<td>Pistol Packin Piggies</td>
+			<td align="right">152.5256</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">35</td>
+			<td>NAKED BASTARDS BBQ</td>
+			<td align="right">151.9772</td>
+		</tr>
+				<tr >
+			<td align="right">36</td>
+			<td>THAT OLD TRICK BBQ</td>
+			<td align="right">151.4516</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">37</td>
+			<td>Misfits of Meat</td>
+			<td align="right">151.3828</td>
+		</tr>
+				<tr >
+			<td align="right">38</td>
+			<td>SMOKIN' AIN'T EASY</td>
+			<td align="right">150.8344</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">39</td>
+			<td>BOY MEETS GRILL</td>
+			<td align="right">149.0972</td>
+		</tr>
+				<tr >
+			<td align="right">40</td>
+			<td>J-Cue</td>
+			<td align="right">149.0972</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">41</td>
+			<td>HAWKEYEBBQ</td>
+			<td align="right">148.5144</td>
+		</tr>
+				<tr >
+			<td align="right">42</td>
+			<td>CENTAUR BBQ</td>
+			<td align="right">148.0572</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">43</td>
+			<td>BUTT UP OR SHUT UP</td>
+			<td align="right">147.9772</td>
+		</tr>
+				<tr >
+			<td align="right">44</td>
+			<td>JAKE N' BUCK'S BBQ</td>
+			<td align="right">147.9772</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">45</td>
+			<td>B & B BBQ COMPANY</td>
+			<td align="right">146.8456</td>
+		</tr>
+				<tr >
+			<td align="right">46</td>
+			<td>ROUTE 5 SMOKEHAUS</td>
+			<td align="right">146.7312</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">47</td>
+			<td>Smoke This!!</td>
+			<td align="right">146.2172</td>
+		</tr>
+				<tr >
+			<td align="right">48</td>
+			<td>RUSTY'S SMOKE BBQ</td>
+			<td align="right">146.2172</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">49</td>
+			<td>BLACK HART BBQ</td>
+			<td align="right">146.1828</td>
+		</tr>
+				<tr >
+			<td align="right">50</td>
+			<td>J & J Backyard BBQ</td>
+			<td align="right">145.6684</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">51</td>
+			<td>CHILLIN N GRILLIN BBQ COMPANY</td>
+			<td align="right">144.5144</td>
+		</tr>
+				<tr >
+			<td align="right">52</td>
+			<td>BABZ BBQ</td>
+			<td align="right">140.4456</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">53</td>
+			<td>COMIN' IN HOT BBQ</td>
+			<td align="right">137.6344</td>
+		</tr>
+				<tr >
+			<td align="right">54</td>
+			<td>Butts & Links Bbq</td>
+			<td align="right">137.0628</td>
+		</tr>
+			</table>
+			<table class="contestResults">
+		<tr>
+			<th colspan="3">Asian Pot Luck</th>
+		</tr>
+				<tr class="alt">
+			<td align="right">1</td>
+			<td>MEAN MOE'S BBQ</td>
+			<td align="right">173.1200</td>
+		</tr>
+				<tr >
+			<td align="right">2</td>
+			<td>Just 4 Fun BBQ</td>
+			<td align="right">170.2628</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">3</td>
+			<td>SHORTSVILLE SMOKERS</td>
+			<td align="right">170.2628</td>
+		</tr>
+				<tr >
+			<td align="right">4</td>
+			<td>RUSTY'S SMOKE BBQ</td>
+			<td align="right">167.4172</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">5</td>
+			<td>CARNIVORE'S HEAVEN</td>
+			<td align="right">167.4056</td>
+		</tr>
+				<tr >
+			<td align="right">6</td>
+			<td>SUCKA BONE BBQ TEAM</td>
+			<td align="right">166.8228</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">7</td>
+			<td>Nickel City Smokers</td>
+			<td align="right">166.2400</td>
+		</tr>
+				<tr >
+			<td align="right">8</td>
+			<td>BIG BELLY BBQ</td>
+			<td align="right">165.7256</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">9</td>
+			<td>Aces & Eights</td>
+			<td align="right">165.1772</td>
+		</tr>
+				<tr >
+			<td align="right">10</td>
+			<td>TRANQUIL CARNIVORES</td>
+			<td align="right">164.0000</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">11</td>
+			<td>WHISKEY'N'CLEAVERS</td>
+			<td align="right">163.3828</td>
+		</tr>
+				<tr >
+			<td align="right">12</td>
+			<td>HUCKLEBERRY'S SMOKE THERAPY</td>
+			<td align="right">162.2744</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">13</td>
+			<td>THE GOOD CUE CREW</td>
+			<td align="right">160.5256</td>
+		</tr>
+				<tr >
+			<td align="right">14</td>
+			<td>BEHIND BBQ</td>
+			<td align="right">159.3828</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">15</td>
+			<td>ROUTE 5 SMOKEHAUS</td>
+			<td align="right">158.3200</td>
+		</tr>
+				<tr >
+			<td align="right">16</td>
+			<td>KISS MY BBQ</td>
+			<td align="right">157.1200</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">17</td>
+			<td>SMOKIN' AIN'T EASY</td>
+			<td align="right">154.8228</td>
+		</tr>
+				<tr >
+			<td align="right">18</td>
+			<td>RED VALLEY BBQ</td>
+			<td align="right">153.1200</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">19</td>
+			<td>Valley Smoke BBQ</td>
+			<td align="right">153.0972</td>
+		</tr>
+				<tr >
+			<td align="right">20</td>
+			<td>THAT OLD TRICK BBQ</td>
+			<td align="right">152.5828</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">21</td>
+			<td>HAWKEYEBBQ</td>
+			<td align="right">152.0228</td>
+		</tr>
+				<tr >
+			<td align="right">22</td>
+			<td>BLACK HART BBQ</td>
+			<td align="right">151.9772</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">23</td>
+			<td>CENTAUR BBQ</td>
+			<td align="right">151.4628</td>
+		</tr>
+				<tr >
+			<td align="right">24</td>
+			<td>Misfits of Meat</td>
+			<td align="right">149.2000</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">25</td>
+			<td>J & J Backyard BBQ</td>
+			<td align="right">147.3828</td>
+		</tr>
+				<tr >
+			<td align="right">26</td>
+			<td>BABZ BBQ</td>
+			<td align="right">135.9544</td>
+		</tr>
+			</table>
+			<table class="contestResults">
+		<tr>
+			<th colspan="3">dessert</th>
+		</tr>
+				<tr class="alt">
+			<td align="right">1</td>
+			<td>THE GOOD CUE CREW</td>
+			<td align="right">180.0000</td>
+		</tr>
+				<tr >
+			<td align="right">2</td>
+			<td>RUSTY'S SMOKE BBQ</td>
+			<td align="right">178.2972</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">3</td>
+			<td>SLIPPERY PETE'S BBQ</td>
+			<td align="right">177.1772</td>
+		</tr>
+				<tr >
+			<td align="right">4</td>
+			<td>BEHIND BBQ</td>
+			<td align="right">177.1428</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">5</td>
+			<td>SMOKIN' AIN'T EASY</td>
+			<td align="right">174.8800</td>
+		</tr>
+				<tr >
+			<td align="right">6</td>
+			<td>J & J Backyard BBQ</td>
+			<td align="right">174.8800</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">7</td>
+			<td>THAT OLD TRICK BBQ</td>
+			<td align="right">174.3200</td>
+		</tr>
+				<tr >
+			<td align="right">8</td>
+			<td>Aces & Eights</td>
+			<td align="right">173.7028</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">9</td>
+			<td>Just 4 Fun BBQ</td>
+			<td align="right">173.7028</td>
+		</tr>
+				<tr >
+			<td align="right">10</td>
+			<td>SHORTSVILLE SMOKERS</td>
+			<td align="right">173.1772</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">11</td>
+			<td>WHISKEY'N'CLEAVERS</td>
+			<td align="right">171.4172</td>
+		</tr>
+				<tr >
+			<td align="right">12</td>
+			<td>Valley Smoke BBQ</td>
+			<td align="right">167.3828</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">13</td>
+			<td>TRANQUIL CARNIVORES</td>
+			<td align="right">166.8228</td>
+		</tr>
+				<tr >
+			<td align="right">14</td>
+			<td>KISS MY BBQ</td>
+			<td align="right">166.8228</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">15</td>
+			<td>BABZ BBQ</td>
+			<td align="right">165.6912</td>
+		</tr>
+				<tr >
+			<td align="right">16</td>
+			<td>MEAN MOE'S BBQ</td>
+			<td align="right">162.8572</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">17</td>
+			<td>CARNIVORE'S HEAVEN</td>
+			<td align="right">161.6800</td>
+		</tr>
+				<tr >
+			<td align="right">18</td>
+			<td>Butts & Links Bbq</td>
+			<td align="right">161.0972</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">19</td>
+			<td>Nickel City Smokers</td>
+			<td align="right">161.0856</td>
+		</tr>
+				<tr >
+			<td align="right">20</td>
+			<td>BLACK HART BBQ</td>
+			<td align="right">158.2972</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">21</td>
+			<td>RED VALLEY BBQ</td>
+			<td align="right">154.8572</td>
+		</tr>
+				<tr >
+			<td align="right">22</td>
+			<td>HUCKLEBERRY'S SMOKE THERAPY</td>
+			<td align="right">152.6172</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">23</td>
+			<td>ROUTE 5 SMOKEHAUS</td>
+			<td align="right">150.8684</td>
+		</tr>
+				<tr >
+			<td align="right">24</td>
+			<td>HAWKEYEBBQ</td>
+			<td align="right">147.9772</td>
+		</tr>
+				<tr class="alt">
+			<td align="right">25</td>
+			<td>CENTAUR BBQ</td>
+			<td align="right">138.3428</td>
+		</tr>
+			</table>
+		
+	
+</div>
+
+<div class="grid05 float">
+		
+	</div>
+
+<div class="clear"><!-- x --></div>
+
+			
+				<div class="clear"><!-- x --></div>
+			</div>
+			
+						
+			<!--
+			<div class="bottom_left float10">
+				<a href="/birthday_promotion.php"><img class="block" src="/images/birthday-banner.jpg" /></a>
+			</div>
+			-->
+			
+			<div class="bottom_right float">
+				<img class="block" src="/images/best-of-the-best.jpg" alt="Our Best of the Best" />
+				<a href="/700club"><img class="block float17" src="/images/flag-700.png" alt="700" /></a>
+				<a href="/180club"><img class="block float17" src="/images/flag-180.png" alt="180" /></a>
+				<a href="/100plusclub"><img class="block float" src="/images/flag-cbj100.png" alt="100+" /></a>
+				<div class="clear"><!-- x --></div>
+			</div>
+			<div class="clear"><!-- x --></div>
+			
+						
+		</div>
+			
+		<div class="clear"><!-- x --></div>
+	</div>
+
+</div>
+
+<div id="footer" class="container">
+	<div class="rightFoot">&copy;2017 Kansas City Barbeque Society</div>
+	<a href="/">Home</a> |
+  <a href="/about.php">About KCBS</a> |
+  <a href="/judges">Judges</a> |
+  <a href="http://www.kcbsgear.com" target="_blank">Store</a> |
+  <a href="/events">Events</a> |
+  <a href="/kcbs-classes">Classes</a> |
+  <a href="/teams">BBQ Teams</a> |
+  <a href="/recipes.php">BBQ Recipes</a> |
+  <a href="/contact.php">Contact</a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="/media.php">Media Room</a> |
+  <a href="/events-map.php?sponsors">Sponsors Info</a> |
+  <a href="/privacy">Privacy Policy</a>
+</div>
+
+</body>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-2736126-1");
+pageTracker._trackPageview();
+</script>
+
+<!-- Quantcast Tag -->
+<script type="text/javascript">
+var _qevents = _qevents || [];
+
+(function() {
+var elem = document.createElement('script');
+elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+elem.async = true;
+elem.type = "text/javascript";
+var scpt = document.getElementsByTagName('script')[0];
+scpt.parentNode.insertBefore(elem, scpt);
+})();
+
+_qevents.push({
+qacct:"p-60M-dZ8irRFEw"
+});
+</script>
+
+<noscript>
+<div style="display:none;">
+<img src="//pixel.quantserve.com/pixel/p-60M-dZ8irRFEw.gif" border="0" height="1" width="1" alt="Quantcast"/>
+</div>
+</noscript>
+<!-- End Quantcast tag -->
+
+</html>
