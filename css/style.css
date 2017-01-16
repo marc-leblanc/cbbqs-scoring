@@ -16,7 +16,7 @@ body{
 
 div.table{
 	display: table;
-	width: 900px;
+	width: 100%;
 }
 div.row{
 	display:table-row;
