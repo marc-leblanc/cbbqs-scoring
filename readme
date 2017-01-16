@@ -1,4 +1,9 @@
-
+CBBQS Scoring Script
+-----------------------
+Version: 0.3
+Date: Jan 16 2017
+Author: Marc LeBlanc <pitmaster@hellbentbbq.ca>
+Description: Added part matches. Can update team name in recommended interventions. If the team is matched 100% it is auto accepted. If the match
 
 CBBQS Scoring Script
 -----------------------

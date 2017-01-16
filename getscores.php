@@ -18,12 +18,15 @@ function changeContest() {
 function changeTeam(teamplace, newTeam){
 	tid= "#team" + teamplace
 	$(tid).text(newTeam);
+	iid= ".intervention" + teamplace;
+	$(iid).html('<span class="found">&#x2713;</span>');
 }
 	
 </script>
 
 </head>
 <body>
+<div id="main">
 <?php
 
 // The setup - load simplehtml dom lib, intitialize variables
@@ -73,21 +76,21 @@ foreach($csv as $row){
 	if($row[0] !=''){
                 $match = search($row[1],$members);
 		if(!strcmp($row[1], 'BLACK HART BBQ')){
-			echo $match;
+//			echo print_r($match);
 		}
-
+		reset($match);
 		$place = $row[0];
-		if($match[0][1] == 100){
-			$team = $match[0][0];
-			$intervention = "<span class='found'>100% Match</span>\n";
+		if(current($match)[1] == 100){
+			$team = current($match)[0];
+			$intervention = "<span class='found'>&#x2713</span>\n";
 		}elseif($match[0][1] == 0){
 			$team = $row[1];
-			$intervention = "<span class='notfound'>Not found</span>\n";
+			$intervention = "<span class='notfound'>&#x2717;</span>\n";
 		}else{
 			$team=$row[1];
 			$intervention =''; //reset intervention variable
 			foreach($match as $searchresult){
-			   $intervention .= "<span class='hits'> $searchresult[0]</span> - " .round($searchresult[1],1) ." % Match - <a onclick='changeTeam($place, \"$searchresult[0]\")'>Use</a><br/>\n";
+			   $intervention .= "<span class='hits'> $searchresult[0]</span> - " .round($searchresult[1],1) ." % Match - <a href='#' onclick='changeTeam($place, \"$searchresult[0]\")'>Use</a><br/>\n";
 			}
 
 		}
@@ -98,7 +101,7 @@ foreach($csv as $row){
 
 
 
-		$scoreOut .= '<div class="col">'. $intervention  .'</div></div>';
+		$scoreOut .= '<div class="col intervention'. $place .'">'. $intervention  .'</div></div>';
 		$numteams=$row[0];
 		
 	}
@@ -117,6 +120,11 @@ echo "<span class='label'>Contest Name:</span><input id='contest' type='text' va
 echo "<span class='label'>Location:</span><input type='text' value='" .trim($location) ."'> <br /> <span class='label'>Date:</span> <input tpye='text' value='" .trim($date). "'> <br/>";
 echo "<span class='label'>Number of teams:</span><input type='text' value='$numteams'><br /><br />";
 ?>
+<div class="legend">
+<h3>Legend</h3>
+<span class="Found">&#x2713;</span> Team Found <span class="hits">Possible Match</span> Manual intervention required  <span class="notfound">&#x2717;</span> Not Found/Non-Member
+</div>
+
 <div class="table">
 <div class="row th">
   <div class="col">Place</div>
@@ -129,6 +137,6 @@ echo "<span class='label'>Number of teams:</span><input type='text' value='$numt
 		
 
 </div>
-
+</div>
 </body>
 </html>

@@ -1,3 +1,13 @@
+#main{
+	width: 1296px;
+	margin: 60px auto;
+}
+body{
+	font-family: arial;
+	font-size: 15px;
+	line-height: 20px;
+}
+
 .label{
 	display: inline-block;
 	font-weight: bold;
@@ -22,11 +32,32 @@ div.th{
 	padding: 5px;
 }
 .found{ 
-	color: green;
+    color: #ffffff;
+    background: green;
+    width: 25px;
+    height: 25px;
+    border-radius: 16px;
+    display: inline-block;
+    text-align: center;
+    line-height: 25px;
 }
 .notfound{
 	color: #555;
 }
 .hits{
-	color: red;
+    background: yellow;
+    line-height: 25px;
+    border-radius: 16px;
+    height: 25px;
+    display: inline-block;
+    padding: 0px 16px;
+}
+.legend{
+
+    font-size: 0.75em;
+    padding-bottom: 15px;
+    border: 1px solid;
+    width: 475px;
+    padding: 0px 20px 20px 20px;
+    margin-bottom: 25px;
 }
