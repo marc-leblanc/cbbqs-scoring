@@ -1,8 +1,14 @@
 #main{
 	width: 1296px;
 	margin: 60px auto;
+	background: #fff;
+	padding: 30px;
+	border-radius: 5px;	
+	border: 1px solid rgba(0,0,0,0.4);
+	box-shadow: 1px 1px 2px #666;
 }
 body{
+	background: grey;
 	font-family: arial;
 	font-size: 15px;
 	line-height: 20px;
@@ -22,6 +28,9 @@ div.row{
 	display:table-row;
 	margin-bottom: 10px;
 }
+div.row:nth-child(odd){
+	background: rgba(6,6,6,0.1);
+}
 div.col{
 	display: table-cell;
 }
@@ -31,6 +40,18 @@ div.th{
 	border-collapse:separate;
 	border-spacing:5px;
 	padding: 5px;
+}
+
+.results .row .col:nth-child(1){
+	width: 50px;
+}
+
+.results .row .col:nth-child(2){
+	width: 400px;
+}
+
+.results .row .col:nth-child(3){
+	width: 400px;
 }
 .found{ 
     color: #ffffff;

@@ -116,8 +116,8 @@ foreach($csv as $row){
 
 // Output
 
-echo "<span class='label'>Contest Name:</span><input id='contest' type='text' value='$title->plaintext'> <a href='#' id='updateContest' onclick='changeContest()'>Update Contest Name</a><br /><br />";
-echo "<span class='label'>Location:</span><input type='text' value='" .trim($location) ."'> <br /> <span class='label'>Date:</span> <input tpye='text' value='" .trim($date). "'> <br/>";
+echo "<span class='label'>Contest Name:</span><input id='contest' style='width: 350px;' type='text' value='$title->plaintext'> <a href='#' id='updateContest' onclick='changeContest()'>Update Contest Name</a><br /><br />";
+echo "<span class='label'>Location:</span><input style='width: 350px;' type='text' value='" .trim($location) ."'> <br /> <span class='label'>Date:</span> <input tpye='text' value='" .trim($date). "'> <br/>";
 echo "<span class='label'>Number of teams:</span><input type='text' value='$numteams'><br /><br />";
 ?>
 <div class="legend">
@@ -125,7 +125,7 @@ echo "<span class='label'>Number of teams:</span><input type='text' value='$numt
 <span class="Found">&#x2713;</span> Team Found <span class="hits">Possible Match</span> Manual intervention required  <span class="notfound">&#x2717;</span> Not Found/Non-Member
 </div>
 
-<div class="table">
+<div class="table results">
 <div class="row th">
   <div class="col">Place</div>
   <div class="col">Team Name</div>
@@ -135,8 +135,9 @@ echo "<span class='label'>Number of teams:</span><input type='text' value='$numt
 
 <?php echo $scoreOut; ?>
 		
-
 </div>
+<br /><br />
+<center> <a href="index.php"> Start Over</a></center> 
 </div>
 </body>
 </html>
