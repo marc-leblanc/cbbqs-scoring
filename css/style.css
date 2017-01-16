@@ -1,0 +1,23 @@
+.label{
+	display: inline-block;
+	font-weight: bold;
+	width: 150px;
+}
+
+div.table{
+	display: table;
+	width: 900px;
+}
+div.row{
+	display:table-row;
+}
+div.col{
+	display: table-cell;
+}
+div.th{
+	font-weight: bold;
+	border-bottom: 1px solid #000;
+	border-collapse:separate;
+	border-spacing:5px;
+	padding: 5px;
+}

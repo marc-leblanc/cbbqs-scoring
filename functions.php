@@ -1,35 +1,26 @@
 <?php
-	include('simplehtmldom/simple_html_dom.php'); // include simplehtmldom library 
 
-	// Create dom from cache files
-	$html = file_get_html('cache/ointoberfest-bbq-cookoff');
-//        echo $html;	
-	$scoretable = $html->find('table',0);
-	echo $scoretable;
-/****************
-Use following lines if you want to generate a downloadable CSV file. Useful for troubleshooting.
-	header('Content-type: application/ms-excel');
-	header('Content-Disposition: attachment; filename=sample.csv');
-	$fp = fopen("php://output", "w");
+function search($needle, $heap){
+	$match=0;
+	$tname='';
+        $searchneedle= strtoupper(preg_replace('/\s+/', '',$needle));
+//	echo $searchneedle ."<br />----------<br />";
+//	return array(10,10);
+	$result=array();
+	$result[1]=0;
+	$result[0]=$needle;
+	foreach($heap as $row){
+//		echo  strtoupper(preg_replace('/\s+/','',$row[0])) ."<br />";
+		if(!strcmp($searchneedle,strtoupper(preg_replace('/\s+/','',$row[0])))){
+			$result[0]= $row[0];
+			$result[1]=100;
+		}
+		
+	}
+return $result;
 
-****************/
-$csv=array();
-foreach($scoretable->find('tr') as $element){
-    $td = array();
-    foreach( $element->find('td') as $row){
-        $td [] = $row->plaintext;
-    }
-    $csv[] = $td;
+
+
 }
-
-echo "<pre>" .print_r($csv) ."</pre>";
-
-// Ublock of download CSV is active	fclose($fp);
-
-function get_current_scores(){
-  return("not implemented yet");	
-
-}	
-
 
 ?>
