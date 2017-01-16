@@ -90,7 +90,7 @@ foreach($csv as $row){
 			$team=$row[1];
 			$intervention =''; //reset intervention variable
 			foreach($match as $searchresult){
-			   $intervention .= "<span class='hits'> $searchresult[0]</span> - " .round($searchresult[1],1) ." % Match - <a href='#' onclick='changeTeam($place, \"$searchresult[0]\")'>Use</a><br/>\n";
+			   $intervention .= "<span class='hits'> $searchresult[0]</span> - " .round($searchresult[1],1) ." % Match - <a class='onclick' onclick='changeTeam($place, \"$searchresult[0]\")'>Use</a><br/>\n";
 			}
 
 		}

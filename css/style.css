@@ -20,6 +20,7 @@ div.table{
 }
 div.row{
 	display:table-row;
+	margin-bottom: 10px;
 }
 div.col{
 	display: table-cell;
@@ -60,4 +61,12 @@ div.th{
     width: 475px;
     padding: 0px 20px 20px 20px;
     margin-bottom: 25px;
+}
+.onclick{
+	color: blue;
+	text-decoration: underline;
+	cursor:pointer;
+}
+.onclick:hover{
+	color: navy;
 }
