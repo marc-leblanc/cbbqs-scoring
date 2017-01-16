@@ -21,3 +21,12 @@ div.th{
 	border-spacing:5px;
 	padding: 5px;
 }
+.found{ 
+	color: green;
+}
+.notfound{
+	color: #555;
+}
+.hits{
+	color: red;
+}

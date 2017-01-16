@@ -15,6 +15,11 @@ function changeContest() {
 	$('.contest').text(newContest);
 }
 
+function changeTeam(teamplace, newTeam){
+	tid= "#team" + teamplace
+	$(tid).text(newTeam);
+}
+	
 </script>
 
 </head>
@@ -25,7 +30,8 @@ function changeContest() {
 
 	include('simplehtmldom/simple_html_dom.php'); // include simplehtmldom library 
 	$curl="";
-	$curl=$_POST['curl'];
+	$curl=$_POST['curl']; //get contest url from POST var
+
 	// Create dom from cache files
 	$html = file_get_html($curl);
 	$title= $html->find('h1',0);
@@ -66,19 +72,33 @@ foreach($scoretable->find('tr') as $element){
 foreach($csv as $row){
 	if($row[0] !=''){
                 $match = search($row[1],$members);
-//		$scoreOut.= $row[0] .',' .$row[1] .',<span class="contest">' .$title->plaintext ."</span><br />";
-		$scoreOut .='<div class="row"><div class="col">' .$row[0] .'</div><div class="col">' .$match[0] .'</div>'
+		if(!strcmp($row[1], 'BLACK HART BBQ')){
+			echo $match;
+		}
+
+		$place = $row[0];
+		if($match[0][1] == 100){
+			$team = $match[0][0];
+			$intervention = "<span class='found'>100% Match</span>\n";
+		}elseif($match[0][1] == 0){
+			$team = $row[1];
+			$intervention = "<span class='notfound'>Not found</span>\n";
+		}else{
+			$team=$row[1];
+			$intervention =''; //reset intervention variable
+			foreach($match as $searchresult){
+			   $intervention .= "<span class='hits'> $searchresult[0]</span> - " .round($searchresult[1],1) ." % Match - <a onclick='changeTeam($place, \"$searchresult[0]\")'>Use</a><br/>\n";
+			}
+
+		}
+
+		$scoreOut .='<div class="row"><div class="col">' .$place .'</div><div class="col"><span id="team' .$place .'">' .$team .'</span></div>'
 		           .'<div class="col contest">' .$title->plaintext .'</div>';
 
-			    //echo  print_r(search($row[1],$members));
-//			    echo $match[1];
-		// figure out team loop.
-		if($match[1]==100){ 
-			$matchout="100 % Match";
-		}else{
-			$matchout=" ";
-		}
-		$scoreOut .= '<div class="col">'. $matchout  .'</div></div>';
+
+
+
+		$scoreOut .= '<div class="col">'. $intervention  .'</div></div>';
 		$numteams=$row[0];
 		
 	}
